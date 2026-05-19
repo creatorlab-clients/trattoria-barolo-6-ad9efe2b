@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO -->
+  <title>Trattoria Barolo 6 | Cozinha italiana clássica desde 1999</title>
+  <meta name="description" content="Restaurante italiano em Curitiba desde 1999. Massa fresca artesanal diariamente, carnes, frutos do mar e molhos especiais. Reserve sua mesa.">
+
+  <!-- OpenGraph -->
+  <meta property="og:title" content="Trattoria Barolo 6 | Cozinha italiana clássica desde 1999">
+  <meta property="og:description" content="Restaurante italiano em Curitiba desde 1999. Massa fresca artesanal diariamente, carnes, frutos do mar e molhos especiais. Reserve sua mesa.">
+  <meta property="og:image" content="assets/og-placeholder.jpg">
+  <meta property="og:type" content="restaurant.restaurant">
+  <meta property="og:locale" content="pt_BR">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="assets/favicon.png">
+
+  <!-- Google Fonts: Fraunces (heading) + Inter (body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,600;1,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Schema.org Restaurant -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Restaurant",
+    "name": "Trattoria Barolo 6",
+    "image": "assets/og-placeholder.jpg",
+    "telephone": "+554132433430",
+    "servesCuisine": "Cozinha italiana clássica",
+    "priceRange": "$$$",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "",
+      "addressLocality": "Curitiba",
+      "postalCode": "80240-020 — PR",
+      "addressCountry": "BR"
+    },
+    "url": "https://barolotrattoria.com.br"
+  }
+  </script>
+</head>
+<body>
+
+  <!-- ============================================ -->
+  <!-- NAVBAR -->
+  <!-- ============================================ -->
+  <header class="navbar">
+    <div class="container nav-inner">
+      <a href="#top" class="brand">
+        <span class="brand-name">Trattoria Barolo 6</span>
+      </a>
+      <nav class="nav-links" aria-label="Navegacao principal">
+        <a href="#sobre">Sobre</a>
+        <a href="#menu">Cardapio</a>
+        <a href="#ambiente">Ambiente</a>
+        <a href="#contato">Contato</a>
+      </nav>
+      <a href="https://wa.me/554132433430?text=Ol%C3%A1!%20Gostaria%20de%20reservar%20uma%20mesa%20na%20Trattoria%20Barolo%206." class="cta-primary cta-primary--compact" aria-label="Reservar via WhatsApp">
+        Reserve sua mesa
+      </a>
+    </div>
+  </header>
+
+  <!-- ============================================ -->
+  <!-- 1. HERO -->
+  <!-- ============================================ -->
+  <section class="hero" id="top">
+    <div class="container hero-grid">
+      <div class="hero-text">
+        <h1 class="hero-title fade-up">Trattoria Barolo 6</h1>
+        <p class="hero-tagline fade-up fade-up-delay-1">Cozinha italiana clássica desde 1999</p>
+        <p class="hero-signature fade-up fade-up-delay-2">Pasta fresca artesanal</p>
+        <div class="hero-ctas fade-up fade-up-delay-3">
+          <a href="https://wa.me/554132433430?text=Ol%C3%A1!%20Gostaria%20de%20reservar%20uma%20mesa%20na%20Trattoria%20Barolo%206." class="cta-primary">
+            Reserve sua mesa
+          </a>
+          <a href="#menu" class="cta-secondary">
+            Ver o menu
+          </a>
+        </div>
+      </div>
+      <figure class="hero-image fade-up fade-up-delay-2">
+        <img src="https://images.unsplash.com/photo-1667388969250-1c7220bf3f37?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTUwNzB8MHwxfHNlYXJjaHwxfHxpdGFsaWFuJTIwcmVzdGF1cmFudCUyMGludGVyaW9yJTIwZWxlZ2FudCUyMHdhcm0lMjBsaWdodGluZ3xlbnwxfDB8fHwxNzc5MTU3NjQ1fDA&ixlib=rb-4.1.0&q=80&w=1080" alt="Prato de massa fresca artesanal servido na Trattoria Barolo 6" width="1600" height="900">
+      </figure>
+    </div>
+  </section>
+
+  <!-- ============================================ -->
+  <!-- 2. SCROLL ANIMATION — food-fresh -->
+  <!-- scrollAnimationId: food-fresh -->
+  <!-- ============================================ -->
+  <section class="scroll-animation" id="scroll-anim" aria-label="Sequencia cinematografica: molho caindo sobre a massa fresca">
+    <div class="scroll-anim-pin">
+      <canvas id="scroll-canvas" aria-hidden="true"></canvas>
+    </div>
+  </section>
+
+  <!-- ============================================ -->
+  <!-- 3. SOBRE / CHI SIAMO -->
+  <!-- ============================================ -->
+  <section class="about" id="sobre">
+    <div class="container about-grid">
+      <figure class="about-image fade-up">
+        <img src="https://images.unsplash.com/photo-1574966739987-65e38db0f7ce?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTUwNzB8MHwxfHNlYXJjaHwxfHxpdGFsaWFuJTIwcmVzdGF1cmFudCUyMGRpbmluZyUyMHRhYmxlcyUyMGFtYmlhbmNlfGVufDF8MHx8fDE3NzkxNTc2NDV8MA&ixlib=rb-4.1.0&q=80&w=1080" alt="Interior da Trattoria Barolo 6 com ambiente acolhedor e decoração italiana" loading="lazy" width="1200" height="800">
+      </figure>
+      <div class="about-text">
+        <span class="eyebrow fade-up">Sobre nos</span>
+        <h2 class="section-title fade-up fade-up-delay-1">Cozinha italiana clássica</h2>
+        <p class="about-body fade-up fade-up-delay-2">Inaugurado em 1999, o Barolo sempre apostou no melhor de duas mesas, servindo uma combinação entre a cozinha italiana clássica e a culinária própria que floresceu aqui no Brasil com os imigrantes italianos. Prezamos pela qualidade de nossos ingredientes e acreditamos na importância da confecção artesanal e diária das massas que servimos, acompanhadas de carnes vermelhas, frutos do mar e peixes, além dos molhos especiais criados pelos nossos chefs.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================ -->
+  <!-- 4. MENU DO MOMENTO — stagger cards -->
+  <!-- ============================================ -->
+  <section class="menu" id="menu">
+    <div class="container">
+      <header class="section-header">
+        <span class="eyebrow fade-up">Cardapio</span>
+        <h2 class="section-title fade-up fade-up-delay-1">Menu do momento</h2>
+      </header>
+
+      <div class="menu-grid">
+        <article class="menu-card stagger-card" data-stagger="0">
+          <div class="menu-card-body">
+            <header class="menu-card-head">
+              <h3 class="menu-card-title">Burrata com tomate confit</h3>
+              <span class="menu-card-price">R$ 42</span>
+            </header>
+            <p class="menu-card-desc">Burrata fresca com tomate confit no azeite, manjericão e flor de sal.</p>
+          </div>
+        </article>
+        <article class="menu-card stagger-card" data-stagger="1">
+          <div class="menu-card-body">
+            <header class="menu-card-head">
+              <h3 class="menu-card-title">Fettuccine ao molho alfredo</h3>
+              <span class="menu-card-price">R$ 68</span>
+            </header>
+            <p class="menu-card-desc">Massa fresca artesanal com creme de parmesão e manteiga.</p>
+          </div>
+        </article>
+        <article class="menu-card stagger-card" data-stagger="2">
+          <div class="menu-card-body">
+            <header class="menu-card-head">
+              <h3 class="menu-card-title">Tagliatelle com frutos do mar</h3>
+              <span class="menu-card-price">R$ 84</span>
+            </header>
+            <p class="menu-card-desc">Massa fresca com camarões, lulas, mexilhões e molho de tomate fresco.</p>
+          </div>
+        </article>
+        <article class="menu-card stagger-card" data-stagger="3">
+          <div class="menu-card-body">
+            <header class="menu-card-head">
+              <h3 class="menu-card-title">Ossobuco com risoto milanês</h3>
+              <span class="menu-card-price">R$ 92</span>
+            </header>
+            <p class="menu-card-desc">Ossobuco cozido lentamente com risoto de açafrão ao estilo milanês.</p>
+          </div>
+        </article>
+        <article class="menu-card stagger-card" data-stagger="4">
+          <div class="menu-card-body">
+            <header class="menu-card-head">
+              <h3 class="menu-card-title">Panna cotta de baunilha</h3>
+              <span class="menu-card-price">R$ 28</span>
+            </header>
+            <p class="menu-card-desc">Panna cotta de baunilha com calda de frutas vermelhas.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================ -->
+  <!-- 5. AMBIENTE — galleria -->
+  <!-- ============================================ -->
+  <section class="ambient" id="ambiente">
+    <div class="container">
+      <header class="section-header">
+        <span class="eyebrow fade-up">Ambiente</span>
+        <h2 class="section-title fade-up fade-up-delay-1">Nosso espaco</h2>
+      </header>
+
+      <div class="ambient-grid">
+        <figure class="ambient-tile fade-up" data-stagger="0">
+          <img src="https://www.barolotrattoria.com.br/imagens/slideshow/slide1.jpg" alt="Salão principal da Trattoria Barolo 6 com mesas e ambiente acolhedor" loading="lazy" width="1200" height="800">
+        </figure>
+        <figure class="ambient-tile fade-up" data-stagger="1">
+          <img src="https://www.barolotrattoria.com.br/imagens/slideshow/slide2.jpg" alt="Detalhe de mesa preparada com talheres e guardanapo de tecido" loading="lazy" width="1200" height="800">
+        </figure>
+        <figure class="ambient-tile fade-up" data-stagger="2">
+          <img src="https://www.barolotrattoria.com.br/imagens/slideshow/slide3.jpg" alt="Cozinha da Trattoria Barolo 6 com preparo de massa fresca artesanal" loading="lazy" width="1200" height="800">
+        </figure>
+        <figure class="ambient-tile fade-up" data-stagger="3">
+          <img src="https://images.unsplash.com/photo-1618232648030-3ada84c0f025?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTUwNzB8MHwxfHNlYXJjaHwxfHxpdGFsaWFuJTIwcmVzdGF1cmFudCUyMEZvdG8lMjBkbyUyMGFtYmllbnRlJTIwZW0lMjBmb3JtYXRvJTIwaG9yaXpvbnRhbCUyMDQlM0EzLiUyMEx1eiUyMG5hdHVyYWwlMjBvdSUyMGFtYmllbnRlJTIwcXVlbnRlLnxlbnwxfDB8fHwxNzc5MTU3NjQ2fDA&ixlib=rb-4.1.0&q=80&w=1080" alt="Pratos de pasta fresca servidos na Trattoria Barolo 6" loading="lazy" width="1200" height="800">
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================ -->
+  <!-- 6. CHEF / FILOSOFIA — statico (respiro) -->
+  <!-- ============================================ -->
+  <section class="chef" id="chef">
+    <div class="container chef-grid">
+      <figure class="chef-image">
+        <img src="https://images.unsplash.com/photo-1574966740793-953ad374e8fe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTUwNzB8MHwxfHNlYXJjaHwxfHxpdGFsaWFuJTIwY2hlZiUyMHBvcnRyYWl0JTIwcHJvZmVzc2lvbmFsJTIwa2l0Y2hlbnxlbnwxfDF8fHwxNzc5MTU3NjQ1fDA&ixlib=rb-4.1.0&q=80&w=1080" alt="Chef da Casa" loading="lazy" width="900" height="1200">
+      </figure>
+      <div class="chef-text">
+        <h2 class="section-title">Chef da Casa</h2>
+        <p class="chef-bio">Nossa equipe de chefs mantém viva a tradição da pasta artesanal diária, combinando técnicas clássicas da culinária italiana com a herança dos imigrantes que trouxeram seus saberes para o Brasil. Cada molho é criado com cuidado e ingredientes selecionados.</p>
+        <p class="chef-philosophy">Nossa massa é feita a mão todos os dias no nosso laboratório de pasta. Cada prato reflete a tradição italiana que floresceu no Brasil com os imigrantes, combinando técnica clássica com ingredientes de qualidade selecionados diariamente.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================ -->
+  <!-- 7. HORARIO + ENDERECO + MAPA — statico (respiro) -->
+  <!-- ============================================ -->
+  <section class="info" id="contato">
+    <div class="container info-grid">
+
+      <div class="info-block">
+        <div class="info-icon-wrap" aria-hidden="true">
+          <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 256 256" fill="none" stroke="currentColor" stroke-width="12" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="128" cy="128" r="96"/>
+            <polyline points="128 72 128 128 184 128"/>
+          </svg>
+        </div>
+        <h3 class="info-title">Horario de funcionamento</h3>
+        <ul class="hours-list">
+          <li>
+            <span class="hours-day">Segunda a Sexta</span>
+            <span class="hours-time">12:00 - 14:30, 19:00 - 00:00</span>
+          </li>
+          <li>
+            <span class="hours-day">Sábado</span>
+            <span class="hours-time">12:00 - 15:30, 19:00 - 00:00</span>
+          </li>
+          <li>
+            <span class="hours-day">Domingo</span>
+            <span class="hours-time">12:00 - 16:00</span>
+          </li>
+        </ul>
+      </div>
+
+      <div class="info-block">
+        <div class="info-icon-wrap" aria-hidden="true">
+          <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 256 256" fill="none" stroke="currentColor" stroke-width="12" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M128,16a88,88,0,0,0-88,88c0,75.3,80,131.5,83.4,133.86a8,8,0,0,0,9.2,0C136,235.5,216,179.3,216,104A88.1,88.1,0,0,0,128,16Z"/>
+            <circle cx="128" cy="104" r="32"/>
+          </svg>
+        </div>
+        <h3 class="info-title">Endereco</h3>
+        <address class="info-address">
+          <span class="address-street"></span>
+          <span class="address-city">80240-020 — PR — Curitiba</span>
+        </address>
+      </div>
+
+      <div class="info-block">
+        <div class="info-icon-wrap" aria-hidden="true">
+          <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 256 256" fill="none" stroke="currentColor" stroke-width="12" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M159.4,40A80.1,80.1,0,0,1,216,96.6"/>
+            <path d="M151.1,70.9a48,48,0,0,1,34,34"/>
+            <path d="M156.4,151.6a23.6,23.6,0,0,0-32.6.6h0a23.6,23.6,0,0,1-32.6.6L56.5,118a23.6,23.6,0,0,1,.6-32.6h0a23.6,23.6,0,0,0,.6-32.6L41.4,33.4a16,16,0,0,0-23,.3C-3.8,57.6-1.8,99.6,42,143.4s85.8,45.8,109.7,23.5a16,16,0,0,0,.3-23Z"/>
+          </svg>
+        </div>
+        <h3 class="info-title">Contato</h3>
+        <p class="info-line">
+          <a href="tel:+554132433430" class="info-link">+55 (41) 3243-3430</a>
+        </p>
+        <p class="info-line">
+          <a href="mailto:contato@barolotrattoria.com.br" class="info-link">contato@barolotrattoria.com.br</a>
+        </p>
+        <p class="info-line">
+          <a href="https://instagram.com/barolocuritiba" target="_blank" rel="noopener" class="info-link">@barolocuritiba</a>
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ============================================ -->
+  <!-- 8. CTA FINALE — banda accent -->
+  <!-- ============================================ -->
+  <section class="cta-band">
+    <div class="container cta-band-inner">
+      <h2 class="cta-band-title fade-up">Reserve sua mesa no Trattoria Barolo 6</h2>
+      <a href="https://wa.me/554132433430?text=Ol%C3%A1!%20Gostaria%20de%20reservar%20uma%20mesa%20na%20Trattoria%20Barolo%206." class="cta-primary cta-primary--light fade-up fade-up-delay-1">
+        Reserve sua mesa
+      </a>
+    </div>
+  </section>
+
+  <!-- ============================================ -->
+  <!-- 9. FOOTER -->
+  <!-- ============================================ -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <span class="brand-name footer-brand-name">Trattoria Barolo 6</span>
+        <p class="footer-tag">Cozinha italiana clássica desde 1999</p>
+      </div>
+      <div class="footer-col">
+        <h4 class="footer-title">Endereco</h4>
+        <p><br>80240-020 — PR — Curitiba</p>
+      </div>
+      <div class="footer-col">
+        <h4 class="footer-title">Contato</h4>
+        <p><a href="tel:+554132433430">+55 (41) 3243-3430</a></p>
+        <p><a href="mailto:contato@barolotrattoria.com.br">contato@barolotrattoria.com.br</a></p>
+        <p><a href="https://instagram.com/barolocuritiba" target="_blank" rel="noopener">@barolocuritiba</a></p>
+      </div>
+      <div class="footer-col">
+        <h4 class="footer-title">Horario</h4>
+        <p>Segunda a Sexta · 12:00 - 14:30, 19:00 - 00:00</p>
+        <p>Sábado · 12:00 - 15:30, 19:00 - 00:00</p>
+        <p>Domingo · 12:00 - 16:00</p>
+      </div>
+    </div>
+    <div class="footer-bottom container">
+      <span>&copy; <span id="year">2026</span> Trattoria Barolo 6. Todos os direitos reservados.</span>
+      <span class="footer-cnpj">Curitiba, Brasil</span>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
